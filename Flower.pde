@@ -10,9 +10,9 @@ class Flower extends MovingSprite{
 //color(r,g,b,a);
 //r is red, g is green, b is blue and a is alpha (opacity)
         co=color(random(0,255),random(0,255),random(0,255), random(50,200));
-        numPetals=int(random(5,8));
-        super.setVelocity(0,random(10,20));
-        super.setAngularSpeed(random(-2,2));   
+        numPetals=int(random(10,100));
+        super.setVelocity(0,random(10,100));
+        super.setAngularSpeed(random(-20,20));   
     }
     void setNumPetals(int np){
         numPetals=np;
